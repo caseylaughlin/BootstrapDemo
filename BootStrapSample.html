@@ -22,8 +22,8 @@
 </head>
 <title>Bootstrap Sample</title>
 </head>
-<body data-spy="scroll"  data-target="#navbar" data-offset="50">
-<div class="navbar navbar-inverse" id = "navbar">
+<body data-spy="scroll"  data-target=".navbar" data-offset="50">
+<nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
             <a href="" class="navbar-brand"></a>
@@ -38,13 +38,13 @@
 
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="">Im awesome</a></li>
-                <li><a href="">Your not</a></li>
-                <li><a href="">Look at how awesome I am</a></li>
+                <li class="active"><a href="#">Im awesome</a></li>
+                <li><a href="#section1">Your not</a></li>
+                <li><a href="#section2">Look at how awesome I am</a></li>
             </ul>
         </div>
     </div>
-</div>
+</nav>
 
 <div class = 'container'>
     <div class = 'col-lg-12 col-md-12 row text-center features'>
@@ -54,26 +54,26 @@
 <div class = 'container'>
     <div class = 'panel panel-success'>
         <div class = 'panel-heading'>
-        <i class = 'glyphicon glyphicon-time'></i>
-            </div>
+            <i class = 'glyphicon glyphicon-time'></i>
+        </div>
         <div class = 'well'>
-        <h3>Interest</h3>
+            <h3>Interest</h3>
         </div>
     </div>
     <div class = 'panel panel-success'>
         <div class = 'panel-heading'>
-                <i class = 'glyphicon glyphicon-globe'></i>
-            </div>
+            <i class = 'glyphicon glyphicon-globe'></i>
+        </div>
         <div class = 'well'>
-        <h3>Hobbies</h3>
+            <h3>Hobbies</h3>
         </div>
     </div>
     <div class = 'panel panel-success'>
         <div class = 'panel-heading'>
-        <i class = 'glyphicon glyphicon-picture'></i>
-            </div>
+            <i class = 'glyphicon glyphicon-picture'></i>
+        </div>
         <div class = 'well'>
-        <h3>Photos</h3>
+            <h3>Photos</h3>
         </div>
     </div>
 </div>
@@ -107,8 +107,13 @@
 
     </div>
 </div>
-<div id="section3" class="container-fluid">
-    <h1>Section 3</h1>
+<div id="section1" class="container-fluid">
+    <h1>Section 1</h1>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section2" class="container-fluid">
+    <h1>Section 2</h1>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
     <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
 </div>
